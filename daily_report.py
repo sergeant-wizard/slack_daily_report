@@ -7,7 +7,7 @@ import slack
 PDT = -7
 JST = +9
 hour = 9
-minute = 24
+minute = 28
 channel = '#rpt-ryo'
 
 time_difference = JST - PDT
@@ -22,11 +22,11 @@ Ryo's daily report for:
 
 Do:
 
-* hogehoge
+• hogehoge
 
 Did:
 
-* bar
+• foobar
 
 """
 
