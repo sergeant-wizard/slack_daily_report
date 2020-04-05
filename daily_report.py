@@ -7,18 +7,16 @@ import slack
 PDT = -7
 JST = +9
 hour = 9
-minute = 28
+minute = 0
 channel = '#rpt-ryo'
 
 time_difference = JST - PDT
-# FIXME
-time_difference = 0
 current_timestamp = datetime.datetime.today()
 
 
+date = f'{current_timestamp.year}/{current_timestamp.month}/{current_timestamp.day}'
 text = f"""
-Ryo's daily report for:
-{current_timestamp.year}/{current_timestamp.month}/{current_timestamp.day}
+Ryo's daily report for: {date}
 
 Do:
 
