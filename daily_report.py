@@ -8,7 +8,7 @@ PDT = -7
 JST = +9
 hour = 9
 minute = 0
-channel = '#rpt-ryo'
+channel = '#general-application'
 
 time_difference = JST - PDT
 current_timestamp = datetime.datetime.today()
